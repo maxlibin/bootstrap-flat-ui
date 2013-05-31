@@ -2008,6 +2008,7 @@ table {
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #dddddd;
+  color:#fff;
 }
 
 .table th {
@@ -2237,19 +2238,19 @@ table th[class*="span"],
 }
 
 .table tbody tr.success > td {
-  background-color: #dff0d8;
+  background-color: #2ECC71
 }
 
 .table tbody tr.error > td {
-  background-color: #f2dede;
+  background-color: #F1C40F
 }
 
 .table tbody tr.warning > td {
-  background-color: #fcf8e3;
+  background-color: #E74C3C
 }
 
 .table tbody tr.info > td {
-  background-color: #d9edf7;
+  background-color: #3498DB
 }
 
 .table-hover tbody tr.success:hover > td {
@@ -5560,7 +5561,7 @@ a.badge:focus {
 
 .label-info,
 .badge-info {
-  background-color: #3a87ad;
+  background-color: #3498DB;
 }
 
 .label-info[href],
